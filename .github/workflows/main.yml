@@ -11,11 +11,11 @@ jobs:
 
     steps:
       - name: SSH into VPS and Pull Changes
-        uses: appleboy/ssh-action@master
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
-          key: ${{ secrets.KEY }}
+          password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
             cd /var/www/dimas.lol/renuworld  # Update with your project's path
