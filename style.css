@@ -2,13 +2,14 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    background: #D0EDCD;
+    
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background: #D0EDCD url('Path.png') top right no-repeat;
 }
 
 .navigasi {
@@ -16,14 +17,6 @@ body {
     margin: auto;
     position: relative;
 }
-
-/* .logo a {
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    font-family: Montserrat;
-    color: black;
-} */
 
 .menu {
     float: right;
@@ -34,7 +27,6 @@ nav {
     margin: auto;
     display: flex;
     line-height: 200px;
-    position: sticky;
     top: 0;
 }
 
@@ -68,67 +60,76 @@ section {
     margin-bottom: 50px;
 }
 
-.kolom .deskripsi {
-    font-size: 45px;
-    font-weight: 800;
-    font-family: 'Montserrat';
-    color: black;
+.logo  {
+    position: absolute;
+    top: 60px;
+    left: 30px;
 }
 
 h2 {
-    font-size: 40px;
-    font-weight: 800;
-    font-family: 'Montserrat';
+    clear: both;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
     color: black; 
     margin-bottom: 20px;
     width: 100%;
-    line-height: 50px;
+    line-height: 30px;
+}
+
+p {
+    text-align: left;
+    margin: 5px 0px 0px 0px;
+    padding: 5px 0px 0px 0px;
+    color: #8E39D7;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 a.tombol-putih {
     background: white;
     border-radius: 40px;
     margin-top: 20px;
+    margin-right: 10px;
     padding: 10px 25px 10px 25px;
     color: black;
     cursor: pointer;
     font-weight: bold;
+    font-family: "DM Sans", sans-serif;
 }
 
 a.tombol-putih:hover {
-    background: rgb(32, 201, 32);
+    background: #afdfaa;
     text-decoration: none;
 }
 
 a.tombol-hitam {
+    position: absolute;
+    top: 300px;
     border-radius: 40px;
     margin-top: 20px;
-    padding: 10px 25px 10px 25px;
+    padding: 5px 50px 5px 50px;
     color: black;
     cursor: pointer;
     font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid black;
 }
 
 a.tombol-hitam:hover {
-    background: plum;
+    background: #d592f2;
     text-decoration: none;
 }
 
-p {
-    margin: 5px 0px 0px 0px;
-    padding: 5px 0px 0px 0px;
+.elemen {
+    width: 50%;
+    display: flex;
+    position: absolute;
+    flex-wrap: wrap;
+    margin: 0 auto; 
+    left: 600px;
 }
 
-.informasi{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-h1{
-    font-size: 40px;
-    font-weight: 800;
-    font-family: 'Montserrat';
-    color: purple;
-    position : relative;
-    text-align: center;
+.elemen img {
+    width: 100%;
 }
