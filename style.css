@@ -121,6 +121,19 @@ a.tombol-hitam:hover {
     text-decoration: none;
 }
 
+a.tombol-pth {
+    position: absolute;
+    top: 300px;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 5px 50px 5px 50px;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid white;
+}
+
 .elemen {
     width: 50%;
     display: flex;
