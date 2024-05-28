@@ -9,7 +9,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
-    background: #D0EDCD url('Path.png') top right no-repeat;
+    background: #D0EDCD url('../images/Path.png') top right no-repeat;
 }
 
 .navigasi {
