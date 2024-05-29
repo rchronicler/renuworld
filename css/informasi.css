@@ -116,11 +116,51 @@ a.tombol-putih:hover {
 .box p{
     text-align: justify;
 }
+.box-gede{
+    flex-basis: 100%;
+    border: #C8C8C8 1px solid;
+    border-radius: 15px;
+    background-color: #E1FFDE;
+    box-shadow: 10px 10px #C8C8C8;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    margin: 15px 90px 50px;
+    padding: 30px;
+}
+
 
 h4{
     color: #4567BF;
     font-size: 30px;
     font-weight: 800;
-    margin: 0px 120px;
-
+    margin: 0px 100px;
 }
+
+#text{
+    flex-basis: auto;
+    padding: 20px;
+}
+#text p{
+    margin-bottom: 20px;
+}
+#text img{
+    width: 50px;
+    height: 50px;
+}
+a.tombol-biru {
+    background: #4567BF;
+    border-radius: 40px;
+    padding: 10px 35px 10px 35px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+a.tombol-biru:hover {
+    background: #7A9FFF;
+} 
+
+
+
