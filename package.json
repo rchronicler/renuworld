@@ -1,0 +1,8 @@
+{
+	"devDependencies": {
+		"tailwindcss": "^3.4.3"
+	},
+	"scripts": {
+		"dev": "pnpm dlx tailwindcss -i ./css/main.css -o ./css/tailwind.css --watch"
+	}
+}
