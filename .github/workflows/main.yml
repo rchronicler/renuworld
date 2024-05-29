@@ -3,7 +3,7 @@ name: Deploy to DigitalOcean VPS
 on:
   push:
     branches:
-      - production  # Replace 'main' with your branch name
+      - main  # Replace 'main' with your branch name
 
 jobs:
   deploy:
@@ -19,4 +19,4 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             cd /var/www/serica.dimas.lol  # Update with your project's path
-            git pull origin production       # Update 'main' if necessary
+            git pull origin main       # Update 'main' if necessary
