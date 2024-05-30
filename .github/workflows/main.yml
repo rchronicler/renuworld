@@ -18,5 +18,5 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /var/www/serica.dimas.lol  # Update with your project's path
+            cd /var/www/renuworld.dimas.lol  # Update with your project's path
             git pull origin main       # Update 'main' if necessary
