@@ -8,15 +8,16 @@
 body{
     line-height: 1.6;
 }
-#bg-pg2{
+#bg{
     background: linear-gradient(to bottom right,#FFFFFF, #75D76B);
     height: 100%;
 
 }
 .logo{
     position: absolute;
-    top: 0px;
-    left: 10vh;
+    top: 30px;
+    left: 70px;
+    align-items: center;
 }
 
 header{
@@ -222,21 +223,63 @@ a.tombol-biru:hover {
 .mid{
     background: linear-gradient(to right,#7FE275,#035946);
     padding: 50px 100px;
-    display: block;
     color: white;
+    display: flex;
+    gap: 20px;
 }
 
-.mid h2{
-    font-size: 20px;
-    width: 40%;
-    position: relative;;
-
-}
-.mid table{
-    text-align: left;
+.text {
+    display: flex;
+    gap: 20px;
+    margin: 0px;
 }
 
+hr{
+    border: 1px solid white;
+    margin: 10px 0px 10px;
+}
 .mid img{
-    size: fit-content;
+    margin: 20px;
 }
+
+.bot{
+    background: #DBBBEB;
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    
+}
+.bot p  {
+    margin: 10px 50px 50px;
+    font-size: 20px;
+}
+
+.pic{
+    margin: 0px 90px;
+}
+.organik{
+    flex-basis: 33,3%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.caption{
+    font-weight: 800;
+}
+.anorganik{
+    margin: 100px;
+}
+.pt{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.segment{
+    max-width: 50%;
+}
+.a{
+    margin-top: 20px;
+    margin-bottom: auto;
+}
+
 
