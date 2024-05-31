@@ -2,7 +2,11 @@
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    
+}
+
+@keyframes fade-in {
+    0% {opacity: 1}
+    100% {opacity: 0}
 }
 
 body {
@@ -63,7 +67,7 @@ section {
 .logo  {
     position: absolute;
     top: 60px;
-    left: 30px;
+    left: 40px;
 }
 
 h2 {
@@ -117,8 +121,9 @@ a.tombol-hitam {
 }
 
 a.tombol-hitam:hover {
-    background: #d592f2;
-    text-decoration: none;
+    border: 2px solid black;
+    box-shadow: 5px 5px #C8C8C8;
+    transition: 0.5s;
 }
 
 .elemen {
