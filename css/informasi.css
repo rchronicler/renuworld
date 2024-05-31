@@ -8,6 +8,7 @@
 body{
     line-height: 1.6;
 }
+
 #bg{
     background: linear-gradient(to bottom right,#FFFFFF, #75D76B);
     height: 100%;
