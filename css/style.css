@@ -7,9 +7,9 @@
 @keyframes fade-in {
     0% {opacity: 1}
     100% {opacity: 0}
-}
+} 
 
-body {
+.body-index {
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
@@ -64,13 +64,13 @@ section {
     margin-bottom: 50px;
 }
 
-.logo  {
+.logo-index {
     position: absolute;
     top: 60px;
-    left: 40px;
+    left: 30px;
 }
 
-h2 {
+.h-index {
     clear: both;
     font-size: 35px;
     font-weight: 700;
@@ -81,7 +81,7 @@ h2 {
     line-height: 30px;
 }
 
-p {
+.p-index {
     text-align: left;
     margin: 5px 0px 0px 0px;
     padding: 5px 0px 0px 0px;
@@ -122,9 +122,10 @@ a.tombol-hitam {
 
 a.tombol-hitam:hover {
     border: 2px solid black;
-    box-shadow: 5px 5px #C8C8C8;
+    box-shadow: 3px 3px #C8C8C8;
     transition: 0.5s;
 }
+
 
 .elemen {
     width: 50%;
