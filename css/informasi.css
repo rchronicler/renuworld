@@ -8,6 +8,7 @@
 body{
     line-height: 1.6;
 }
+
 #bg-pg2{
     background: linear-gradient(to bottom right,#FFFFFF, #75D76B);
     height: 100%;
@@ -137,7 +138,6 @@ a.tombol-putih:hover {
     margin: 15px 90px 50px;
 }
 
-
 h4{
     color: #4567BF;
     font-size: 30px;
@@ -198,6 +198,46 @@ a.tombol-biru:hover {
     text-decoration: underline;
 }
 
+.top{
+    background: linear-gradient(to right,#2F60ED,#0D215B);
+    padding: 100px;
+    display: block;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+}
 
+.top h1{
+    width: 35%;
+    margin: auto;
+    font-size: 40px;
+    font-weight: 800;
+}
+.top p{
+    width: 60%;
+    text-align: right;
+    margin: auto;
+    font-size: 18px;
+}
 
+.mid{
+    background: linear-gradient(to right,#7FE275,#035946);
+    padding: 50px 100px;
+    display: block;
+    color: white;
+}
+
+.mid h2{
+    font-size: 20px;
+    width: 40%;
+    position: relative;;
+
+}
+.mid table{
+    text-align: left;
+}
+
+.mid img{
+    size: fit-content;
+}
 

@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    line-height: 1.6;
+    /* background: linear-gradient(to right, #7FE275, #035946 ); */
+    background-color: white;
+}
+
+main {
+    background-color: white;
+}
+
+header{
+    height: 165px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(to right, #C99BDE, #7A5C89 );
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 10vh;
+}
+
+.navigasi {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 200px;
+    top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+a.tombol-putih {
+    background: white;
+    border-radius: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 10px 25px 10px 25px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "DM Sans", sans-serif;
+}
+
+a.tombol-putih:hover {
+    background: #DAB0EE;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #833DCE;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 650;
+    color: #833DCE;
+}
+
+
+a.tombol-pth {
+    position: absolute;
+    top: 1300px;
+    right: 95px;
+    border-radius: 40px;
+    margin-top: 20px;
+    padding: 5px 70px 5px 70px;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    border: 2px solid white;
+}
+
+a.tombol-pth:hover {
+    border: 2px solid black;
+    box-shadow: 5px 5px #C8C8C8;
+    transition: 0.5s;
+}
+
+.buletan-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.buletan {
+    width: 10%;
+    margin: 10px;
+}
+
+.buletan img {
+    width: 100px;
+}
+
+.isi-ijo {
+    background: linear-gradient(to right, #7FE275, #035946 );
+    padding-bottom: 10em;
+    padding-top: 5em;
+}
+
+@keyframes fade-in {
+    0% {opacity: 1}
+    100% {opacity: 0}
+} 
+
+
