@@ -3,17 +3,18 @@
     height: 100%;
 
 }
-.logo-hub {
-    position: absolute;
-    top: 0px;
-    left: 10vh;
-}
 
 header {
     height: 165px;
     width: 100%;
     position: relative;
     background: linear-gradient(to right, #C99BDE, #7A5C89 );
+}
+
+.logo-fitur{
+    position: absolute;
+    top: 0px;
+    left: 10vh;
 }
 
 .navigasi {
@@ -31,6 +32,7 @@ nav {
     margin: auto;
     display: flex;
     line-height: 200px;
+    top: 0;
 }
 
 nav ul {
@@ -48,7 +50,7 @@ nav ul li a {
     color: black;
     font-weight: bold;
     text-align: center;
-    padding: 16px;
+    padding: 0px 16px 0px 16px;
     text-decoration: none;
 }
 
@@ -76,14 +78,14 @@ a.tombol-aktif {
     margin-top: 20px;
     margin-right: 10px;
     padding: 10px 25px 10px 25px;
-    border: 2px solid black;
-    color: #833DCE;
     cursor: pointer;
     font-weight: bold;
     font-family: "DM Sans", sans-serif;
+    border: 2px solid black;
+    color: #833DCE;
 }
 
 a.tombol-aktif:hover {
     opacity: 0.8;
-    text-decoration: none;
+    text-decoration:none;
 }
